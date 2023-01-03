@@ -11301,3 +11301,64 @@ section {
   padding-top: 9rem;
   padding-bottom: 9rem;
 }
+
+/*
+Testimonial slider section
+*/
+.testimonial-slider {
+  width: 100%;  /* Set a fixed width for the testimonial slider */
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.testimonial {
+  width: 100%;  /* Set a fixed width for the testimonial box */
+  display: flex;  /* Enable flexbox layout */
+  flex-direction: column;  /* Arrange the content in a column */
+  align-items: center;  /* Center the content horizontally */
+  margin-right: 20px;
+  margin-top: 1em;
+  /*border: 2px solid #333;  /* Add a slim border */
+  border-radius: 10px;  /* Round the corners */
+  padding: 20px;  /* Add some padding to the inside of the border */
+  overflow-wrap:normal;
+  word-wrap:normal;
+}
+ 
+.testimonial-text {
+  font-style: italic;
+}
+.testimonial-author {
+  text-align: center;  /* Center the author horizontally */
+}
+
+blockquote{
+  width:100%;
+  margin:0;
+  padding:1.5em;
+  background-color: rgba(var(--bs-primary-rgb));
+  color:white;
+  box-shadow: 5px 5px 2px rgba(0,0,0,0.1);
+  position:relative;
+  transition: background-color 0.6s linear;
+  border-radius: 10px;
+  text-align: center;
+}
+.blockquote-text{
+  margin-top:1em;
+}
+.quotes{
+  position:relative;
+  font-size:4em;
+}
+.leftq{
+  top:-25px;
+  left:0px;
+  float: left;
+}
+.rightq{
+  bottom:-1px;
+  right:5px;
+  float: right;
+}
